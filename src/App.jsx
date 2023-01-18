@@ -1,13 +1,16 @@
 import styled from "styled-components";
 import GlobalStyle from "./assets/GlobalStyle";
-import Home from "./pages/Home";
+import SignIn from "./pages/SignIn";
+import SignUP from "./pages/SignUp";
+
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <Body>
-      <Home />
+      {/* <SignIn /> */}
+      <SignUP />
       </Body>
     </>
   );
