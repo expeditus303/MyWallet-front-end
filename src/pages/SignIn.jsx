@@ -7,7 +7,7 @@ import { LoginContext } from "../contexts/LoginContext";
 
 export default function SignIn() {
   
-  const { token, setToken } = useContext(LoginContext);
+  const { setToken } = useContext(LoginContext);
 
 
   const [email, setEmail] = useState("");
