@@ -65,7 +65,7 @@ export default function SignIn() {
         </form>
 
         <Link to="/cadastro">
-          First time? $ign Up here!
+          First time? $ign Up here!!
         </Link>
       </SignInContainer>
     </>
