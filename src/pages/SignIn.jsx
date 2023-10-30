@@ -45,7 +45,7 @@ export default function SignIn() {
   return (
     <>
       <SignInContainer>
-        <h1>Hacked</h1>
+        <h1>MyWallet</h1>
         <form onSubmit={login}>
           <Input
             type="email"
@@ -65,7 +65,7 @@ export default function SignIn() {
         </form>
 
         <Link to="/cadastro">
-          First time? $ign UpPPPPP!
+          First time? $ign Up!
         </Link>
       </SignInContainer>
     </>
