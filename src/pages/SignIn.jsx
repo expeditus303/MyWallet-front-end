@@ -45,7 +45,7 @@ export default function SignIn() {
   return (
     <>
       <SignInContainer>
-        <h1>Hacked jacked!!</h1>
+        <h1>MyWallet</h1>
         <form onSubmit={login}>
           <Input
             type="email"
