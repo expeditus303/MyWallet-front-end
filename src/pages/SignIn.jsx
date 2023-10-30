@@ -61,7 +61,7 @@ export default function SignIn() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <Button type="submit">Sign In</Button>
+          <Button type="submit">Sign In!</Button>
         </form>
 
         <Link to="/cadastro">
