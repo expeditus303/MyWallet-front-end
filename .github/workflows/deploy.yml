@@ -18,5 +18,3 @@ jobs:
         run: docker compose build
       - name: Docker Compose Up
         run: docker compose up -d
-      - name: Docker Compose Certbot
-        run: docker compose run --rm certbot
